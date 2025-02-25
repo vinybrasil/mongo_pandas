@@ -12,7 +12,7 @@ version: '3'
 services:
 
   mongo:
-    image: mongo
+    image: mongo:noble
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
